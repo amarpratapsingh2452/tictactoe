@@ -1,0 +1,94 @@
+.heading {
+    font-weight: bold;
+    font-size: 60px;
+    background-color: antiquewhite;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    width: 80vw;
+    height: 80px;
+    justify-content: center;
+}
+
+.game {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(192, 200, 206);
+    margin: auto;
+    height: 60vh;
+    width: 60vh;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8,
+.box9 {
+    border: 2px solid rgb(204, 7, 7);
+    aspect-ratio: 1 / 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    box-sizing: border-box;
+}
+
+
+
+.reset {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 20vw;
+    background-color: aquamarine;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.reset:hover {
+    background-color: rgb(0, 253, 169);
+}
+
+.box1:hover {
+    border: 4px solid rgb(255, 196, 196);
+}
+
+.box2:hover {
+    border: 4px solid rgb(255, 196, 196);
+}
+
+.box3:hover {
+    border: 4px solid rgb(255, 196, 196);
+}
+
+.box4:hover {
+    border: 4px solid rgb(255, 196, 196);
+}
+
+.box5:hover {
+    border: 4px solid rgb(255, 196, 196);
+}
+
+.box6:hover {
+    border: 4px solid rgb(255, 196, 196);
+}
+
+.box7:hover {
+    border: 4px solid rgb(255, 196, 196);
+}
+
+.box8:hover {
+    border: 4px solid rgb(255, 196, 196);
+}
+
+.box9:hover {
+    border: 4px solid rgb(255, 196, 196);
+}
