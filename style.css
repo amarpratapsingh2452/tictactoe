@@ -16,10 +16,11 @@
     grid-template-columns: 1fr 1fr 1fr;
     background-color: rgb(192, 200, 206);
     margin: auto;
-    height: 60vh;
-    width: 60vh;
+    height: 400px;
+    width: 400px;
     margin-top: 40px;
     cursor: pointer;
+    user-select: none;
 }
 
 .box1,
@@ -91,4 +92,17 @@
 
 .box9:hover {
     border: 4px solid rgb(255, 196, 196);
+}
+@media screen and (max-width:576px) {
+    .heading{height: 160px;}
+   
+}
+@media screen and (max-width:420px) {
+    .game{height:300px; width:300px}
+    .heading{font-size: 35px;height: 95px;}
+   
+}
+@media screen and (max-width:330px) {
+    .game{height:240px; width:240px}
+    .heading{font-size: 20px;height:50px}
 }
